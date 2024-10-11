@@ -1,4 +1,5 @@
-export function Hello(){
-    return <h1>Hello Gazsi!</h1>
+function Hello(props){
+    return <h1>Hello {props.name}!</h1>
 }
 
+export default Hello;
