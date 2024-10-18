@@ -1,0 +1,38 @@
+[
+    {
+      "title": "Halálos Iramban",
+      "type": "movie",
+      "year": 2001,
+      "picture": "https://player.hu/uploads/2023/07/mazda-rx-7-halalos-iramban-22.jpg",
+      "details": "Halálos Iramban (The Fast and the Furious) is an action-packed film series that focuses on illegal street racing, heists, and espionage."
+    },
+    {
+      "title": "Breaking Bad",
+      "type": "series",
+      "year": 2008,
+      "picture": "https://m.media-amazon.com/images/M/MV5BMTJiMzgwZTktYzZhZC00YzhhLWEzZDUtMGM2NTE4MzQ4NGFmXkEyXkFqcGdeQWpybA@@._V1_QL75_UX500_CR0,0,500,281_.jpg",
+      "details": "Breaking Bad is a crime drama series about a high school chemistry teacher turned methamphetamine manufacturer."
+    },
+    {
+      "title": "Hannibal",
+      "type": "series",
+      "year": 2013,
+      "picture": "https://m.media-amazon.com/images/M/MV5BMjA5NDM1NDQ3NF5BMl5BanBnXkFtZTgwNjkyNjYxNDM@._V1_.jpg",
+      "details": "Hannibal is a psychological horror-thriller series that explores the relationship between FBI agent Will Graham and Dr. Hannibal Lecter, a cannibalistic serial killer."
+    },
+    {
+      "title": "Friends",
+      "type": "series",
+      "year": 1994,
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyFlK5bul2WPRpYrLCqe_4nbqUcg_qpsAplg&s",
+      "details": "Friends is a popular sitcom that follows the personal and professional lives of six friends living in Manhattan."
+    },
+    {
+      "title": "Vox Machina",
+      "type": "series",
+      "year": 2022,
+      "picture": "https://m.media-amazon.com/images/S/pv-target-images/321e9cd59fe63aefed852e7057c094c4b7223f69d54712884d41082ace60ffff.jpg",
+      "details": "The Legend of Vox Machina is an animated series based on the Critical Role campaign, following a group of adventurers in a fantasy world."
+    }
+  ]
+  
