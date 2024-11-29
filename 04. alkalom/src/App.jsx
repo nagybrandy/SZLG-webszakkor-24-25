@@ -4,9 +4,12 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import TaskList from './TaskList'
 import AddNewTask from './AddNewTask'
+import { Toaster } from 'react-hot-toast'
+import CompletedTasks from './CompletedTasks'
 
 const initialTasks = [
-  { id: 1, title: "Buy groceries", todo: true },
+  { id: 1, title
+    : "Buy groceries", todo: true },
   { id: 2, title: "Read a book", todo: true },
   { id: 3, title: "Write a report", todo: true },
   { id: 4, title: "Prepare presentation", todo: true },
@@ -20,15 +23,18 @@ const initialTasks = [
 
 function App() {
   const [tasks, setTasks] = useState(initialTasks)
+
   return (
     <>
       {/* AddNewTask: Bevitel új tennivaló felviteléhez*/}
       <AddNewTask setTasks={setTasks} tasks={tasks} />
       
       {/* TaskList: Ki vannak listázva a tennivalóink */}
-      <TaskList tasks={tasks.filter(e => e.todo)} />
+      <TaskList tasks={tasks.filter(e => e.todo)} setTasks={setTasks}/>
+      <CompletedTasks tasks={tasks.filter(e => !e.todo)} />
 
       {/* CompletedTasks: Ki vannak listázva a teljesített elemek */}
+      <Toaster />
     </>
   )
 }

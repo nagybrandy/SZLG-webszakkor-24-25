@@ -1,9 +1,18 @@
 import React from 'react'
 
 
-const TaskListItem = ({ task }) => {
+const TaskListItem = ({ task, tasks, setTasks }) => {
+
+  function handleClick() {
+
+    // KÖVETKEZŐ ÓRÁN KIJAVÍTANI
+    let ind = tasks.indexOf(task)
+    task.todo = false
+    setTasks([...tasks, task])
+  }
+
   return (
-    <li>
+    <li onClick={handleClick}>
         {task.title}
     </li>
   )
